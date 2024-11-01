@@ -10,6 +10,7 @@ tags: [electron, ffmpeg,]
 ```
 npm install @ffmpeg-installer/ffmpeg fluent-ffmpeg --save
 ```
+其中@ffmpeg-installer会预编译不同平台的二进制文件，通过 npm 包管理和分发这些二进制文件，运行时根据平台选择正确的二进制文件，并且能正确处理文件路径和权限。我们也可以参照类似的方法打包任意命令行工具。而fluent-ffmpeg 是一个 Node.js 的 FFmpeg 命令行封装库。
 
 ### 使用
 
